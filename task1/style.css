@@ -1,0 +1,85 @@
+#logo {
+    height: 80px;
+    width:140px;
+    float: left;
+}
+/*#content {
+    background-color: blue;
+    height: 180px;
+    width:380px;
+    float: left;
+}
+#img {
+    background-color: blueviolet;
+    height: 200px;
+    width:450px;
+    float: left;
+}
+#login {
+    background-color: brown;
+    height: 500px;
+    width: 300px;
+    float: right;
+}*/
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+.flex {
+    display: flex;
+    justify-self: content;
+}
+#wrapper {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-box {
+    width: 480px;
+    height: 600px;
+}
+.left-content {
+    width: 100%;
+    height: 200px;
+}
+
+.img-box {
+    background-color: white;
+    flex-basis: 150px;
+    border-radius: 15%;
+    text-align: center;
+    line-height: 100px;
+    width: 100px;
+    height: 200px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.content-header {
+    font: size 2.5em;
+    color:white;
+}
+
+#right-box {
+    display: flex;
+    align-items: center;
+}
+
+#whitecolor {
+    color:white;
+}
+
+#loginbtn {
+    background-color: orange;
+    color:white;
+}
